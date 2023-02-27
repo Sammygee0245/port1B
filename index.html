@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="Sass/main.css">
     <link rel="stylesheet" href="assest/fontIcons/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
     <title>Document</title>
 </head>
 <body>
@@ -50,13 +54,11 @@
            data-aos-offset="300"
            data-aos-easing="ease-in-sine" class="home-content">
             <p style="color:rgb(3, 212, 83) ;">Hi, my name is</p>
-            <h1 class="h1">Green Lantern.</h1>
-            <h1 class="h11">I am a web developer</h1>
+            <h1 class="h1">Samuel Bediako.</h1>
+            <h1 class="h11">I am a frontend web developer</h1>
             <br>
             <p class="p11">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Temporibus vero commodi deserunt possimus enim architecto esse blanditiis dolore veritatis vel voluptatem, fuga, 
-                quaerat dignissim
+                What makes me love frontend web development is the ability to create beautiful and interactive interfaces that users can engage with. I mostly working with various technologies such as HTML, CSS, and JavaScript to develop responsive and dynamic web pages.
             </p>
              <br><br>
              <button class="getintouch"><a class="navto" href="#">Get in Touch</a></button>
@@ -80,14 +82,14 @@
                data-aos-duration="3000"" class="about-card">
                     <div class="about-para" style="color:rgb(194, 162, 209) ;">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi quia est reprehenderit distinctio quisquam. Praesentium omnis ipsam dicta natus eum, unde similique tenetu?
+                            Hi, my name is Samuel Bediako and I am currently taking an NCC program to enhance my skills in web development. I have a strong foundation in HTML, CSS, Bootstrap, React, Sass, and JavaScript, which I have learned through various courses, online resources, and practical projects.
                         </p>
                         <br>
                         <p>
-                            Lorem ipsum dolor <span style="color:rgb(3, 212, 83) ;">Oxford University</span> consectetur adipisicing elit.reprehenderit distinctio quisquam. Praesentium omnis ipsam dicta natus eum, unde similique tenetu?
+                            I have a passion for frontend web development and enjoy creating beautiful and functional websites and web applications. I am particularly interested in using React to develop dynamic and interactive user interfaces, as well as Sass for efficient styling and customization.
                         </p>
                         <br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                        <p>My Skill set are</p>
                         <br>
                         <div class="skill-grd">
                             <div style="display: flex;">
@@ -122,12 +124,12 @@
 
                             <div style="display: flex;">
                                 <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>Vue</p>
+                                <p>Git</p>
                             </div>
 
                            <div style="display: flex;">
                                 <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>Angular</p>
+                                <p>Github</p>
                             </div>
                         </div>
                     </div>
@@ -139,179 +141,82 @@
 
     <section>
         <!-- Experience page -->
-        <div id="exp-page" class="experience-page">
-            <div class="exp-content">
-                <div class="about-title">
-                    <span class="label">02.</span>
-                    <h4 style="color: #fff;"> Where I've Worked</h4>
-                    <h5 style="color: rgb(54, 54, 54);margin-bottom: 10px;margin-left: 7px;">_______________________</h5>
+        <div id="exp-page" class="experience-page">   
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/05.jpg"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/car1.jpg"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/car2.webp"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/car3.jpg"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/car3.jpg"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/o1.jpg"
+                        />
+                      </div>
+              
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/o10.jpg"
+                        />
+                      </div>
+              
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/o2.jpg"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          class="img1"
+                          src="Sass/pictures/o3.jpg"
+                        />
+                      </div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+          
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+          
+                  <!-- If we need scrollbar -->
+                  <div class="swiper-scrollbar"></div>
                 </div>
-
-                <div data-aos="fade-up"
-                data-aos-duration="3000" class="experince-card">
-                    <ul class="exp-ul">
-                        <li class="exp-list" >
-                            <a class="exp-navto" href="#flex-1">Apple</a>
-                        </li>
-
-                        <li  class="exp-list" >
-                            <a class="exp-navto" href="#flex-2">Google</a>
-                        </li>
-
-                        <li  class="exp-list" >
-                            <a class="exp-navto" href="#flex-3">Microsoft</a>
-                        </li>
-
-                        <li class="exp-list" >
-                            <a class="exp-navto" href="#flex-4">Linux</a>
-                        </li>
-                    </ul>
-
-                    <div class="exp-work-card">
-                        <div id="flex-1" class="flex" >
-                            <h5>UI Developer <span style="color:rgb(3, 212, 83) ;">@ Apple</span> </h5>
-                            <p style="font-size: 13px;">Jan - Dec 2017</p>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus, quam aliquam quidem consectetur!
-                                </p>
-                            </div>
-                          
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus, quam aliquam quidem consectetur!
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus!
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="flex-2"  class="flex" >
-                            <h5>Frontend web Developer <span style="color:rgb(3, 212, 83) ;">@ Google</span> </h5>
-                            <p style="font-size: 13px;">Jan - Dec 2017</p>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus.
-                                </p>
-                            </div>
-                          
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus, quam aliquam !
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus, quam aliquam quidem consectetur!
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="flex-3"  class="flex" >
-                            <h5>UI Developer <span style="color:rgb(3, 212, 83) ;">@ Microsoft</span> </h5>
-                            <p style="font-size: 13px;">Jan - Dec 2017</p>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus, quam aliquam quidem consectetur!
-                                </p>
-                            </div>
-                          
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus!
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus.
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus!
-                                </p>
-                            </div>
-                        </div>
-
-                        <div id="flex-4"  class="flex" >
-                            <h5>UI Developer <span style="color:rgb(3, 212, 83) ;">@ Linux</span> </h5>
-                            <p style="font-size: 13px;">Jan - Dec 2017</p>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus, quam aliquam quidem consectetur!
-                                </p>
-                            </div>
-                          
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus!
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right:7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus.
-                                </p>
-                            </div>
-                            <br>
-                            <div style="display: flex;">
-                                <i style="margin-right: 7px;" class="fa-solid fa-arrow-right"></i>
-                                <p>
-                                
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis minus!
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+              </div>
+              </div>
         </div>
     </section>
 
@@ -535,25 +440,86 @@
    </div>
     </footer>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script> 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendMessage(){
-            Email.send({
-    Host : "smtp.gmail.com",
-    Username : "sammygee.0245@gmail.com",
-    Password : "123456",
-    To : 'sammygee.0245@gmail.com',
-    From : document.querySelector("#email").value,
-    Subject : document.querySelector("#subject").value,
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-)
-        }
-    </script> 
 </body>
 </html>
+
+
+<!-- <div class="container">
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/05.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/car1.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/car2.webp"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/car3.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/car3.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/o1.jpg"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/o10.jpg"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/o2.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="Sass/pictures/o3.jpg"
+          />
+        </div>
+        </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+</div> -->
