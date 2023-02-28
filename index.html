@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="assest/fontIcons/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-  />
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <title>Document</title>
 </head>
 <body>
@@ -143,7 +143,52 @@
 
     <section>
         <!-- Experience page -->
-        <div id="exp-page" class="experience-page"></div>
+        <div id="exp-page" class="experience-page">
+            <div class="about-title">
+                <span class="label">01.</span>
+                <h4 style="color: #fff;"> About Me</h4>
+                <h5 style="color: rgb(54, 54, 54);margin-bottom: 10px;margin-left: 7px;">________________________</h5>
+            </div>
+            <br>
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <img
+                        class="img1"
+                        src="Sass/pictures/car1.jpg"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="img1"
+                        src="Sass/pictures/car2.webp"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="img1"
+                        src="Sass/pictures/car3.jpg"
+                      />
+                    </div>
+                   
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+          
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+          
+                  <!-- If we need scrollbar -->
+                  <div class="swiper-scrollbar"></div>
+                </div>
+              </div>
+              </div>
+        </div>
     </section>
 
     <section>
@@ -365,12 +410,13 @@
     </div>
    </div>
     </footer>
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script> 
+    <script src="index.js"></script>
+    <script src="swiper.js"></script>
 </body>
 </html>
 

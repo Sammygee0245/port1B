@@ -243,11 +243,11 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: $dark;
-  @include FlexData(flex, center, center, row);
+  @include FlexData(flex, center, center, column);
 }
 
 .container {
-  width: 95vw;
+  width: 100vw;
   height: 70vh;
 }
 

@@ -242,11 +242,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .container {
-  width: 95vw;
+  width: 100vw;
   height: 70vh;
 }
 
