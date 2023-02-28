@@ -246,7 +246,7 @@ body {
 }
 
 .container {
-  width: 70vw;
+  width: 95vw;
   height: 70vh;
 }
 
@@ -588,16 +588,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   width: 100vw;
   height: 100%;
   color: rgb(196, 173, 196);
   margin-top: 5rem;
+  padding: 10px;
 }
 
 .con {
-  flex: 1;
-  height: 100vh;
+  width: 90%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -605,54 +605,29 @@ body {
 }
 
 .contact-info {
-  width: 50vw;
+  width: 50%;
   height: 100%;
-  background-color: rgb(2, 1, 19);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  border: 1px solid rgb(3, 212, 83);
 }
 
 .contacts {
-  width: 50vw;
+  width: 50%;
   height: 100%;
-  background-color: rgb(2, 1, 19);
-  border: 1px solid rgb(3, 212, 83);
 }
 
 .naem {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
-  background-color: red;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
 }
 
-@media (max-width: 726px) {
-  .con {
-    flex: 1;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 4rem;
-  }
-  .contact-info {
-    margin-top: 8rem;
-    width: 100%;
-    height: 80%;
-    background-color: rgb(2, 1, 19);
-  }
-  .contacts {
-    width: 100%;
-    height: 80%;
-    background-color: rgb(2, 1, 19);
-  }
-}
 .text-c {
   font-weight: 900;
   font-size: 20px;
@@ -683,8 +658,22 @@ body {
 }
 
 .namee {
-  width: 80%;
-  background-color: blue;
+  width: 50%;
+  height: 100%;
+  outline: none;
+  background-color: transparent;
+  color: rgb(196, 173, 196);
+  border-radius: 7px;
+}
+
+.emaill {
+  width: 50%;
+  height: 100%;
+  outline: none;
+  margin-left: 5px;
+  background-color: transparent;
+  color: rgb(196, 173, 196);
+  border-radius: 7px;
 }
 
 .text-area {
@@ -721,4 +710,27 @@ body {
 
 .sicns {
   font-size: 20px;
+}
+
+@media (max-width: 726px) {
+  .con {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .contact-info {
+    margin-top: 8rem;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(2, 1, 19);
+  }
+  .contacts {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(2, 1, 19);
+  }
 }/*# sourceMappingURL=main.css.map */

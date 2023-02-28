@@ -247,7 +247,7 @@ body {
 }
 
 .container {
-  width: 70vw;
+  width: 95vw;
   height: 70vh;
 }
 
@@ -546,63 +546,41 @@ body {
 }
 
 .contact-page {
-  @include FlexData(flex, center, center, row);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   height: 100%;
   color: $pur;
   margin-top: 5rem;
+  padding: 10px;
 }
 
 .con {
-  flex: 1;
-  height: 100vh;
+  width: 90%;
+  height: 100%;
   @include FlexData(flex, center, center, row);
 }
 
 .contact-info {
-  width: 50vw;
+  width: 50%;
   height: 100%;
-  background-color: $dark;
   @include FlexData(flex, center, center, column);
   padding: 20px;
-  border: 1px solid $grn;
 }
 
 .contacts {
-  width: 50vw;
+  width: 50%;
   height: 100%;
-  background-color: $dark;
-  border: 1px solid $grn;
 }
 
 .naem {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
-  background-color: red;
-}
-
-@media (max-width: 726px) {
-  .con {
-    flex: 1;
-    height: 100vh;
-    @include FlexData(flex, center, center, column);
-    margin-top: 4rem;
-  }
-
-  .contact-info {
-    margin-top: 8rem;
-    width: 100%;
-    height: 80%;
-    background-color: $dark;
-  }
-
-  .contacts {
-    width: 100%;
-    height: 80%;
-    background-color: $dark;
-  }
+  width: 100%;
+  height: 50px;
+  padding: 5px;
 }
 
 .text-c {
@@ -632,8 +610,22 @@ body {
 }
 
 .namee {
-  width: 80%;
-  background-color: blue;
+  width: 50%;
+  height: 100%;
+  outline: none;
+  background-color: transparent;
+  color: $pur;
+  border-radius: 7px;
+}
+
+.emaill {
+  width: 50%;
+  height: 100%;
+  outline: none;
+  margin-left: 5px;
+  background-color: transparent;
+  color: $pur;
+  border-radius: 7px;
 }
 
 .text-area {
@@ -668,4 +660,26 @@ body {
 
 .sicns {
   font-size: 20px;
+}
+
+@media (max-width: 726px) {
+  .con {
+    flex: 1;
+    height: 100vh;
+    @include FlexData(flex, center, center, column);
+    margin-top: 4rem;
+  }
+
+  .contact-info {
+    margin-top: 8rem;
+    width: 100%;
+    height: 80%;
+    background-color: $dark;
+  }
+
+  .contacts {
+    width: 100%;
+    height: 80%;
+    background-color: $dark;
+  }
 }
